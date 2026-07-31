@@ -1,0 +1,58 @@
+const destinations = [
+  {
+    id: 1,
+    slug: "pokhara",
+    name: "Pokhara",
+    country: "Nepal",
+    image: "/images/destinations/pokhara.jpg",
+    tours: 24,
+    rating: 4.9,
+  },
+  {
+    id: 2,
+    slug: "everest",
+    name: "Everest Base Camp",
+    country: "Nepal",
+    image: "/images/destinations/everest.jpg",
+    tours: 18,
+    rating: 5.0,
+  },
+  {
+    id: 3,
+    slug: "chitwan",
+    name: "Chitwan",
+    country: "Nepal",
+    image: "/images/destinations/chitwan.jpg",
+    tours: 16,
+    rating: 4.8,
+  },
+  {
+    id: 4,
+    slug: "mustang",
+    name: "Upper Mustang",
+    country: "Nepal",
+    image: "/images/destinations/mustang.jpg",
+    tours: 12,
+    rating: 4.9,
+  },
+  {
+    id: 5,
+    slug: "lumbini",
+    name: "Lumbini",
+    country: "Nepal",
+    image: "/images/destinations/lumbini.jpg",
+    tours: 14,
+    rating: 4.7,
+  },
+  {
+    id: 6,
+    slug: "rara",
+    name: "Rara Lake",
+    country: "Nepal",
+    image: "/images/destinations/rara.jpg",
+    tours: 10,
+    rating: 4.9,
+  },
+];
+
+export default destinations;
