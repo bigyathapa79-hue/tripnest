@@ -62,7 +62,6 @@ const Destinations = () => {
 
   // Reset page when filters change
   useEffect(() => {
-    setCurrentPage(1);
   }, [search, region, sort]);
 
   // Pagination

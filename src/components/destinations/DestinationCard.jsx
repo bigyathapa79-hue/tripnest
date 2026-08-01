@@ -1,15 +1,15 @@
-import { Link } from "react-router";
 import { motion } from "framer-motion";
 import {
-  FaMapMarkerAlt,
-  FaClock,
-  FaStar,
-  FaHeart,
   FaArrowRight,
+  FaClock,
+  FaHeart,
+  FaMapMarkerAlt,
+  FaStar,
 } from "react-icons/fa";
+import { Link } from "react-router";
 
 const DestinationCard = ({ destination }) => {
-  const { slug, name, image, location, duration, rating, price } = destination;
+  const { name, image, location, duration, rating, price } = destination;
 
   return (
     <motion.div
