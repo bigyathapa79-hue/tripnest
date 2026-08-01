@@ -55,7 +55,7 @@ const HeroContent = () => {
 
             <Link
               to="/destinations"
-              className="group inline-flex items-center gap-3 rounded-full border border-white/70 bg-sky-500 px-8 py-4 font-semibold text-white backdrop-blur-md transition-all duration-300 hover:border-white hover:bg-white hover:text-slate-900"
+              className="group inline-flex items-center gap-3 rounded-full bg-sky-500 px-8 py-4 font-semibold text-white backdrop-blur-md transition-all duration-300 hover:bg-sky-600 hover:text-slate-900"
             >
               View Destinations
               <FaArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />

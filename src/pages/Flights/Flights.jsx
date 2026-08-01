@@ -1,11 +1,32 @@
-
+import PageBanner from "../../components/common/PageBanner";
+import FlightGrid from "../../components/flights/FlightGrid";
+import flights from "../../data/flights";
 
 const Flights = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <PageBanner
+        title="Flights"
+        background="/images/banners/flight-banners.jpg"
+      />
 
-export default Flights
+      <section className="py-20">
+        <div className="container mx-auto max-w-7xl px-4">
+          <div className="mb-12 text-center">
+            <h2 className="text-4xl font-bold text-slate-800">
+              Available Flights
+            </h2>
+
+            <p className="mt-4 text-slate-500">
+              Find domestic flights across Nepal with trusted airlines.
+            </p>
+          </div>
+
+          <FlightGrid flights={flights} />
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default Flights;
