@@ -1,10 +1,17 @@
 import PageBanner from "../../components/common/PageBanner";
+import SEO from "../../components/common/SEO";
 import FlightGrid from "../../components/flights/FlightGrid";
 import flights from "../../data/flights";
 
 const Flights = () => {
   return (
     <>
+      <SEO
+        title="TripNest | Explore Nepal"
+        description="Discover Nepal's best destinations, hotels, tours and flights with TripNest."
+        keywords="Nepal Travel, Pokhara, Everest, Tours, Hotels, Flights"
+      />
+
       <PageBanner
         title="Flights"
         background="/images/banners/flight-banners.jpg"

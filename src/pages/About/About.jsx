@@ -1,8 +1,15 @@
 import PageBanner from "../../components/common/PageBanner";
+import SEO from "../../components/common/SEO";
 
 const About = () => {
   return (
     <>
+      <SEO
+        title="TripNest | Explore Nepal"
+        description="Discover Nepal's best destinations, hotels, tours and flights with TripNest."
+        keywords="Nepal Travel, Pokhara, Everest, Tours, Hotels, Flights"
+      />
+
       <PageBanner
         title="About Us"
         background="/images/banners/about-banner.jpg"

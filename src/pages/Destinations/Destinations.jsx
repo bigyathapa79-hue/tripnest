@@ -4,6 +4,7 @@ import PageBanner from "../../components/common/PageBanner";
 import DestinationFilter from "../../components/destinations/DestinationFilter";
 import DestinationGrid from "../../components/destinations/DestinationGrid";
 import destinations from "../../data/destinations";
+import SEO from "../../components/common/SEO";
 
 
 
@@ -79,6 +80,12 @@ const Destinations = () => {
 
   return (
     <>
+      <SEO
+        title="TripNest | Explore Nepal"
+        description="Discover Nepal's best destinations, hotels, tours and flights with TripNest."
+        keywords="Nepal Travel, Pokhara, Everest, Tours, Hotels, Flights"
+      />
+
       <PageBanner
         title="Destinations"
         background="/images/banners/page-banner.jpg"

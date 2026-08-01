@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+<loc>https://tripnest.vercel.app/</loc>
+</url>
+
+<url>
+<loc>https://tripnest.vercel.app/destinations</loc>
+</url>
+
+<url>
+<loc>https://tripnest.vercel.app/tours</loc>
+</url>
+
+<url>
+<loc>https://tripnest.vercel.app/flights</loc>
+</url>
+
+<url>
+<loc>https://tripnest.vercel.app/hotels</loc>
+</url>
+
+<url>
+<loc>https://tripnest.vercel.app/about</loc>
+</url>
+
+<url>
+<loc>https://tripnest.vercel.app/contact</loc>
+</url>
+
+</urlset>

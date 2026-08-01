@@ -6,7 +6,6 @@ const navLinks = [
   { name: "Tours", path: "/tours" },
   { name: "Flights", path: "/flights" },
   { name: "Hotels", path: "/hotels" },
-  { name: "Gallery", path: "/gallery" },
   { name: "About", path: "/about" },
   { name: "Contact", path: "/contact" },
 ];

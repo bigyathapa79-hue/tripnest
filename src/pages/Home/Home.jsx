@@ -1,3 +1,4 @@
+import SEO from "../../components/common/SEO";
 import FeaturedHotels from "../../components/home/FeaturedHotels";
 import FeaturedTours from "../../components/home/FeaturedTours";
 import FlightDeals from "../../components/home/FlightDeals";
@@ -11,16 +12,21 @@ import WhyChooseUs from "../../components/home/WhyChooseUs";
 const Home = () => {
   return (
     <>
+      <SEO
+        title="TripNest | Explore Nepal"
+        description="Discover Nepal's best destinations, hotels, tours and flights with TripNest."
+        keywords="Nepal Travel, Pokhara, Everest, Tours, Hotels, Flights"
+      />
+
       <Hero />
       <PopularDestinations />
       <FeaturedTours />
       <WhyChooseUs />
-      <FeaturedHotels/>
-      <FlightDeals/>
-      <Statistics/>
-      <Testimonials/>
-      <Newsletter/>
-
+      <FeaturedHotels />
+      <FlightDeals />
+      <Statistics />
+      <Testimonials />
+      <Newsletter />
     </>
   );
 };
