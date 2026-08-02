@@ -34,7 +34,7 @@ const PopularDestinations = () => {
         {/* Cards */}
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {destinations.map((destination) => (
-            <DestinationCard key={destination.id} destination={destination} />
+            <DestinationCard key={destination.name} destination={destination} />
           ))}
         </div>
 
