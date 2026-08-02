@@ -5,6 +5,7 @@ import FlightDeals from "../../components/home/FlightDeals";
 import Hero from "../../components/home/Hero";
 import Newsletter from "../../components/home/Newsletter";
 import PopularDestinations from "../../components/home/PopularDestinations";
+import SearchTabs from "../../components/home/SearchTabs";
 import Statistics from "../../components/home/Statistics";
 import Testimonials from "../../components/home/Testimonials";
 import WhyChooseUs from "../../components/home/WhyChooseUs";
@@ -19,6 +20,7 @@ const Home = () => {
       />
 
       <Hero />
+      <SearchTabs />
       <PopularDestinations />
       <FeaturedTours />
       <WhyChooseUs />

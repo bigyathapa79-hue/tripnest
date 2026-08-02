@@ -1,6 +1,5 @@
 import HeroContent from "./HeroContent";
 import HeroSlider from "./HeroSlider";
-import SearchTabs from "./SearchTabs";
 
 const Hero = () => {
   return (
@@ -9,7 +8,7 @@ const Hero = () => {
 
       <HeroContent />
 
-      <SearchTabs />
+
       
       
     </section>
