@@ -32,7 +32,16 @@ const SearchTabs = () => {
       initial={{ opacity: 0, y: 70 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.8, duration: 0.7 }}
-      className="absolute -bottom-30 left-1/2 z-30 w-full max-w-7xl -translate-x-1/2 px-4"
+      className="
+    relative mt-8
+    lg:absolute lg:-bottom-24
+    left-1/2
+    z-30
+    w-full
+    max-w-7xl
+    lg:-translate-x-1/2
+    px-4
+  "
     >
       <div className="overflow-hidden rounded-3xl border border-white/20 bg-white/15 shadow-2xl backdrop-blur-xl">
         {/* Tabs */}
