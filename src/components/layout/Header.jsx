@@ -78,7 +78,7 @@ const Header = () => {
       {/* Mobile Menu */}
       <div
         className={`overflow-hidden bg-white transition-all duration-300 lg:hidden ${
-          isOpen ? "max-h-[600px]" : "max-h-0"
+          isOpen ? "max-h-150" : "max-h-0"
         }`}
       >
         <nav className="border-t border-slate-100">
